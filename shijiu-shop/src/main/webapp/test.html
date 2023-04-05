@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $("button").click(function(){
+                $("#content").css("color","red");
+                alert($("#content").text());
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+<div id="content">内容</div>
+
+<button>改颜色</button>
+</body>
+</html>
